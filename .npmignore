@@ -1,0 +1,4 @@
+# for pushing package to npm
+hardhat.config.js
+scripts
+test

@@ -1,0 +1,43 @@
+Arguments: 
+  /usr/local/bin/node /Users/small/.node/corepack/yarn/1.22.15/bin/yarn.js add --dev hardhat=2.9.3
+
+PATH: 
+  /Users/small/.rvm/gems/ruby-3.0.0/bin:/Users/small/.rvm/gems/ruby-3.0.0@global/bin:/Users/small/.rvm/rubies/ruby-3.0.0/bin:/Users/small/miniforge3/bin:/Users/small/miniforge3/condabin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/small/.rvm/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.14.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/hardhat=2.9.3: Not found
+      at Request.params.callback [as _callback] (/Users/small/.node/corepack/yarn/1.22.15/lib/cli.js:66140:18)
+      at Request.self.callback (/Users/small/.node/corepack/yarn/1.22.15/lib/cli.js:140885:22)
+      at Request.emit (node:events:520:28)
+      at Request.<anonymous> (/Users/small/.node/corepack/yarn/1.22.15/lib/cli.js:141857:10)
+      at Request.emit (node:events:520:28)
+      at IncomingMessage.<anonymous> (/Users/small/.node/corepack/yarn/1.22.15/lib/cli.js:141779:12)
+      at Object.onceWrapper (node:events:639:28)
+      at IncomingMessage.emit (node:events:532:35)
+      at endReadableNT (node:internal/streams/readable:1346:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "hardhat-fund-me",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/PatrickAlphaC/hardhat-fund-me-fcc",
+    "author": "Henry Chang <chchang1991@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
